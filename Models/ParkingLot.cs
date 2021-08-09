@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ParkHouse.Models
 {
-    public class CarPark
+    public class ParkingLot
     {        
         public virtual int Id { get; protected set; }     
-        public virtual string Name { get; set; }     
+        public virtual string Name { get; set; }           
         public virtual int Capacity { get; set; }
     }
 }
